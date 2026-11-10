@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Image</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        background: #f8fafc;
+      }
+
+      img {
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+      }
+
+      .caption {
+        color: #111827;
+        font-family: system-ui, sans-serif;
+        font-size: 6vh;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./Liebherr_LTM_1035.png" alt="Example image" />
+    <p class="caption">Hier entsteht gerade eine Webseite.</p>
+  </body>
+</html>
